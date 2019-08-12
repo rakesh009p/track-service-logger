@@ -32,7 +32,7 @@ public class TrackServiceTest {
     private TrackServiceImp trackServiceImp;
 
 
-    private List<Track> list = null;
+    private List<Track> list;
 
 
     @Before
@@ -52,7 +52,7 @@ public class TrackServiceTest {
     @After
     public void tearDown() {
         track = null;
-        List<Track> list = null;
+        list = null;
 
 
     }

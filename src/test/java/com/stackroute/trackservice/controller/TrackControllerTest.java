@@ -43,7 +43,7 @@ public class TrackControllerTest {
     @InjectMocks
     private TrackController trackController;
 
-    private List<Track> list = null;
+    private List<Track> list;
 
     @Before
     public void setUp() {
@@ -66,7 +66,7 @@ public class TrackControllerTest {
     @After
     public void tearDown(){
         track=null;
-        List<Track> list = null;
+        list=null;
 
     }
 
