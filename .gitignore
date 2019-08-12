@@ -1,0 +1,16 @@
+HELP.md
+target/
+.idea/
+mvnw
+mvnw.cmd
+.mvn/wrapper
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+
